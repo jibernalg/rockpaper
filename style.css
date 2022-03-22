@@ -1,0 +1,67 @@
+
+*{
+    background-color:black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: grey;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.imagenes1,
+.imagenes2{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+}
+img{
+    width: 120px;
+    height: 90px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.imagenes1 img:hover{
+    background-color: grey;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.general{
+    display: block;  
+    justify-content: center;
+    border: 2px solid white;
+    border-right: 1px solid white;
+    
+}
+.generalderecha{
+    display: block;  
+    justify-content: center;
+    border: 2px solid white;
+    border-left: 1px solid white;
+}
+.inferior{
+    display: flex;  
+    justify-content: center;    
+}
+.cuadroRespuesta{
+    display: flex;
+    padding: 3px;
+    color: white;
+    font-size: larger;
+    
+}
+#respuesta{
+    padding-right: 0.3em;
+}
+#resumenResultados{
+    display: flex;
+    color: yellow;
+    font-size: larger;
+}

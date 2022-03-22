@@ -3,10 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="javascript.js"></script>
+    <title>Piedra, papel y tijeras</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <h1>PIEDRA PAPEL Y TIJERAS</h1>
+    <div class="principal">
+        <div class="general">
+            <div class="imagenes1">
+                <img src="piedra.png" id="piedra" onclick="pressPiedra();rival();resultado()">
+                <img src="papel.png" id="papel" onclick="pressPapel();rival();resultado()">
+                <img src="tijeras.png" id="tijera" onclick="pressTijera();rival();resultado()">
+            </div>   
+            <div class="inferior">Jugador</div>
+        </div>
+        <div class="generalderecha">
+            <div class="imagenes2">
+                <img id="img" src="question.jpg" alt="">
+            </div>   
+            <div class="inferior">Computador</div>
+        </div>
+    </div>
+    <br>
+    <div class="cuadroRespuesta">
+        <div id="respuesta"></div> 
+        <div id="eleccionRival"></div>
+    </div>
+    <div id="conteoJugador"></div>
+    <div id="conteoRival"></div>
+    <div id="resumenResultados"></div>
+
     
 </body>
 </html>
